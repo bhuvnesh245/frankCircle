@@ -19,12 +19,8 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': { view: 'pages/homepage' },
-  '/circle' : {controller : 'CircleController', action : 'getCircle', view :'circle'} ,
-  'POST /api/v1/user/create': { action: 'api/user/create' },
-  'PATCH /api/v1/user/update/:userId': { action: 'api/user/update' },
-  'GET /api/v1/user/index': { action: 'api/user/index' },
-  'DELETE /api/v1/user/delete:userId': { action: 'api/user/delete' },
+  '/' : {controller : 'CircleController', action : 'getCircle', view :'circle'} ,
+  'POST /api/v1/circle/create': { action: 'api/circle/create' },
   '/circle/update' : {controller : 'CircleController', action : 'updateCircle'} ,
 
   /***************************************************************************
