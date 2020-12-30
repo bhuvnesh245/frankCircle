@@ -1,3 +1,0 @@
-<template>
-    <div class="hello">Hello {{who}}</div>
-</template>
